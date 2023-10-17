@@ -14,29 +14,6 @@
 
 ---
 
-
-### Настройка CI/CD
-
-1. Файл workflow уже написан. Он находится в директории
-
-    ```bash
-    /.github/workflows/main.yml
-    ```
-
-2. Для адаптации его на своем сервере добавьте секреты в GitHub Actions:
-
-    ```bash
-    DOCKER_USERNAME                # имя пользователя в DockerHub
-    DOCKER_PASSWORD                # пароль пользователя в DockerHub
-    HOST                           # ip_address сервера
-    USER                           # имя пользователя
-    SSH_KEY                        # приватный ssh-ключ (cat ~/.ssh/id_rsa)
-    SSH_PASSPHRASE                 # кодовая фраза (пароль) для ssh-ключа
-
-    TELEGRAM_TO                    # id телеграм-аккаунта (можно узнать у @userinfobot, команда /start)
-    TELEGRAM_TOKEN                 # токен бота (получить токен можно у @BotFather, /token, имя бота)
-    ```
-
 #### Установка Docker
 
 ## Windows
