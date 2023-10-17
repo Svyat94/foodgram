@@ -1,0 +1,13 @@
+Django
+djangorestframework
+djoser
+django-filter
+pillow
+django-extra-fields
+python-dotenv
+psycopg2-binary
+pep8
+pylint
+pycodestyle
+flake8
+gunicorn
